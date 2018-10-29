@@ -1,0 +1,11 @@
+---
+# playbook to check localhost ping
+- name: Test ping on localhost
+  hosts: localhost
+  connection: local
+
+  tasks:
+  - name: Check localhosts Ping !!!
+    ping:
+
+...
